@@ -1,3 +1,7 @@
+A JS Webapp for renting and lending out things.
+
+
+
 -------------------------------NPM-Install----------------------------------------------------------------------------------------
 npm install express, node, bcrypt, cookie-parser, formidable, sqlite3, fs, path
 -------------------------------Server Starten-------------------------------------------------------------------------------------
@@ -37,12 +41,3 @@ curl http://localhost:8000/private/api/borrow/1/MaxMustermann1 -X POST -b "Sessi
 => ID des Artikels anpassen, wenn mehr als ein Artikel erstellt wird.
 curl http://localhost:8000/private/api/return/1 -X POST -b "SessionID=BITTE_ANPASSEN;Username=MaxMustermann1"
 
--------------------------------Aufteilung der Arbeitsverteilung während des Projektes--------------------------------------------------
-
-Verleihen inkl. HTML								=> 	Julian Müller, Matrikelnr. 690018
-
-Ausgeliehen,Index inkl. HTML 							=> 	Nico Isheim, Matrikelnr. 690222
-
-Ausleihen inkl. HTML 								=> 	Michael Sievers, Matrikelnr. 690593
-
-Community,Datenbanken,Routes, Login,Register,Style.css				=>      Teamarbeit
