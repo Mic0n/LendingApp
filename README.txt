@@ -1,4 +1,5 @@
 A JS Webapp for renting and lending out things.
+A Group Project for Web Programming class with Juli-Afk and Shank404
 
 
 
